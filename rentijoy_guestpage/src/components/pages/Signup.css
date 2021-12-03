@@ -1,0 +1,17 @@
+.signup{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+.formElements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span{
+  font-weight: normal;
+font-size: smaller;
+}
