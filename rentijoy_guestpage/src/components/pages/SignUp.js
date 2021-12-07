@@ -69,7 +69,7 @@ function Signup(){
         </div><br />
         <div className="formElements"> 
             User Email 
-            <input type="text" name="user_mail" id="user_mail" onChange={onchange}></input>
+            <input type="email" name="user_mail" id="user_mail" onChange={onchange} pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"></input>
             <span style={{color:"#f00"}} ></span>
         </div><br />
           <div className="formElements">  
@@ -84,7 +84,7 @@ function Signup(){
         </div><br />
         <div className="formElements">
             Phone No 
-            <input type="text" name="phone_no" id="phone_no" onChange={onchange}></input>
+            <input type="number" name="phone_no" id="phone_no" onChange={onchange}></input>
             <span style={{color:"#f00"}} ></span>
         </div><br />
         <div>

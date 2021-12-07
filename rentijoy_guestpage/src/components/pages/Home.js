@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
+import Container from '../Container';
 import Footer from '../Footer';
 
 function Home() {
   return (
     <>
-      <HeroSection />
+      <Container />
       <Footer />
     </>
   );

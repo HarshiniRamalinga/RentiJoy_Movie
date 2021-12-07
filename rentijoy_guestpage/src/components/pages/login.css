@@ -1,5 +1,5 @@
 .Login {
-    background-color:rgb(10, 68, 226);
+    background-color: transparent;
     display: inline flow-root list-item;
     height: max-content;
     width: 30vw;
@@ -36,3 +36,4 @@
 #password{
     border-radius: 15px;
 }
+  
